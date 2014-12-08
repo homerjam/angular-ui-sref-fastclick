@@ -1,0 +1,10 @@
+{
+    "name": "angular-ui-sref-fastclick",
+    "description": "Extends ui-sref directive (part of angular-ui-router) to add fastclick style behaviour",
+    "version": "0.0.1",
+    "main": "angular-ui-sref-fastclick.js",
+    "dependencies": {
+        "angular": "~1.2.26",
+        "angular-ui-router": "~0.2.13"
+    }
+}
