@@ -1,0 +1,15 @@
+{
+  "name": "angular-ui-sref-fastclick",
+  "version": "0.0.1",
+  "description": "Extends ui-sref directive (part of angular-ui-router) to add fastclick style behaviour",
+  "main": "angular-ui-sref-fastclick.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/homerjam/angular-ui-sref-fastclick"
+  },
+  "author": "James Homer",
+  "bugs": {
+    "url": "https://github.com/homerjam/angular-ui-sref-fastclick/issues"
+  },
+  "homepage": "https://github.com/homerjam/angular-ui-sref-fastclick"
+}
