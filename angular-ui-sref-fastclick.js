@@ -13,6 +13,9 @@
                             tapDelay = 200;
 
                         var touchMove = function(e) {
+                            if (e.touches === undefined) {
+                                e = e.originalEvent;
+                            }
                             if (Math.abs(e.targetTouches[0].pageX - touchStartX) > boundary || Math.abs(e.targetTouches[0].pageY - touchStartY) > boundary) {
                                 trackTouch = false;
                             }
@@ -25,6 +28,10 @@
                         });
 
                         $element.bind("touchstart", function(e) {
+                            if (e.touches === undefined) {
+                                e = e.originalEvent;
+                            }
+                            
                             if (e.targetTouches.length > 1) {
                                 return;
                             }
@@ -42,6 +49,10 @@
                         });
 
                         $element.bind("touchend", function(e) {
+                            if (e.touches === undefined) {
+                                e = e.originalEvent;
+                            }
+                            
                             if (!trackTouch) {
                                 return;
                             }
